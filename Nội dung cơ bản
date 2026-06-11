@@ -1,1 +1,31 @@
+# What is SQL injection (SQLi)?
 
+- **What is SQL injection (SQLi)?**
+    - **SQL Injection (SQLi)** là lỗ hổng bảo mật cho phép attacker **can thiệp vào câu truy vấn SQL** của ứng dụng.
+    - Hậu quả:
+        - **Truy cập dữ liệu trái phép** (dữ liệu người dùng khác, dữ liệu nhạy cảm)
+        - Có thể **sửa hoặc xóa dữ liệu** → làm thay đổi hệ thống lâu dài
+    - Nguy hiểm hơn:
+        - Có thể **leo thang tấn công** để:
+            - Chiếm quyền server hoặc hệ thống backend
+            - Thực hiện **tấn công từ chối dịch vụ (DoS)**
+    
+    👉 Nói ngắn gọn:
+    
+    SQLi cho phép attacker đọc, sửa, xóa dữ liệu và thậm chí kiểm soát hệ thống nếu khai thác thành công.
+    
+- **What is the impact of a successful SQL injection attack?**
+    - Khi khai thác thành công **SQL Injection (SQLi)**, attacker có thể truy cập **dữ liệu nhạy cảm**, như:
+        - Mật khẩu
+        - Thông tin thẻ tín dụng
+        - Thông tin cá nhân người dùng
+    - SQLi đã gây ra nhiều **vụ rò rỉ dữ liệu lớn**:
+        - Làm **mất uy tín** của tổ chức
+        - Dẫn đến **phạt pháp lý**
+    - Nguy hiểm hơn:
+        - Attacker có thể cài **backdoor**
+        - → Duy trì truy cập lâu dài vào hệ thống mà không bị phát hiện
+    
+    👉 Nói ngắn gọn:
+    
+    SQLi không chỉ làm lộ dữ liệu mà còn có thể khiến hệ thống bị xâm nhập lâu dài và gây thiệt hại nghiêm trọng.
